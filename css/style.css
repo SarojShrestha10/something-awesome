@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+
+/* Styling Navigation Bar */
+.nav-bar {
+  background-color: #c9c5c5;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+.nav-items {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0.5em;
+}
+nav + div {
+  height: 200vh;
+}
