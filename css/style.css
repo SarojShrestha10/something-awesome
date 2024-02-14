@@ -9,20 +9,26 @@ html {
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 
 /* Styling Navigation Bar */
 .nav-bar {
   background-color: #c9c5c5;
   color: rgb(255, 255, 255);
-  font-size: 2rem;
+  /* height: 20vh; */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-ul {
-  list-style: none;
+.nav-bar ul {
+  font-size: 3em;
+
   display: flex;
-}
-.nav-items {
-  border: 1px solid rgb(0, 0, 0);
-  padding: 0.5em;
+  justify-content: space-between;
 }
 nav + div {
   height: 200vh;
