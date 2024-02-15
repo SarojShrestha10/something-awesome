@@ -17,6 +17,7 @@ ul {
 .nav-bar {
   background-color: #c9c5c5;
   color: rgb(255, 255, 255);
+  padding: 1em;
   /* height: 20vh; */
 
   position: fixed;
@@ -29,6 +30,15 @@ ul {
 
   display: flex;
   justify-content: space-between;
+}
+.nav-items a {
+  color: rgb(255, 255, 255);
+}
+.nav-items a:visited {
+  color: rgb(255, 255, 255);
+}
+.nav-items a:hover {
+  opacity: 0.8;
 }
 nav + div {
   height: 200vh;
