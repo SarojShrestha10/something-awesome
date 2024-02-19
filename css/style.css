@@ -6,3 +6,46 @@
 html {
   font-size: 62.5%;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* Styling Navigation Bar */
+.nav-bar {
+  background-color: rgb(38, 37, 42);
+  color: rgb(255, 255, 255);
+  padding: 1.5em 1em;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar ul {
+  font-size: 2em;
+
+  display: flex;
+}
+.nav-items a {
+  color: rgb(255, 255, 255);
+  padding: 0.5em;
+  margin: 0 1em;
+  transition: background-color 0.15s, border-radius 0;
+}
+.nav-items a:visited {
+  color: rgb(255, 255, 255);
+}
+.nav-items a:hover {
+  background-color: rgb(1, 136, 160);
+  border-radius: 1em;
+}
+nav + div {
+  height: 200vh;
+}
